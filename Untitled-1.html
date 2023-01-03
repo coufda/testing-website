@@ -1,0 +1,79 @@
+event: "add_to_cart",
+ecommerce: {
+  items: [
+    {
+      item_id: "817b0c09-a451-4518-adf2-9a7186eeb4fb",
+      item_name: "Sešívané brožury s obálkou",
+      item_category: "Brožury",
+      currency: "CZK",
+      price: 37.61,
+      quantity: "100"
+    }
+  ]
+},
+
+event: "view_item",
+  ecommerce: {
+    items: [
+      {
+        item_id: "817b0c09-a451-4518-adf2-9a7186eeb4fb",
+        item_name: "Sešívané brožury s obálkou",
+        item_category: "Brožury",
+        currency: "CZK",
+        price: "0"
+      }
+    ]
+  }
+
+
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'add_to_cart', 
+  ecommerce: {
+    items: [{
+      item_name: "Sešívané brožury s obálkou", // Required
+      item_id: "817b0c09-a451-4518-adf2-9a7186eeb4fb",                  // Required
+      affiliation: 'B2B', // Can be B2B or B2C; or something different
+      price: 31.10,
+      currency: "CZK",
+      item_brand: "Brožury",
+      item_category: 'Apparel',
+      item_category2: 'Coats',
+      item_variant: 'Navy blue',
+      quantity: 2, // Make sure quantity is passes as integer, not as float.
+      coupon: '',
+      discount: 0,
+      item_list_name: 'Featured items',
+      item_list_id: 'FI1',
+      index: 1,  // Optional - Position of item in the list 
+      location_id: 'L_12345', // Optional - The location associated with the item.     
+    }]
+  }
+});
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'view_item',
+  ecommerce: {
+    items: [{
+      item_name: 'Finnish magical parka', // Required
+      item_id: "817b0c09-a451-4518-adf2-9a7186eeb4fb",                  // Required
+      affiliation: 'B2B', // Can be B2B or B2C; or something different
+      price: 31.10,
+      currency: "CZK",
+      item_brand: "Brožury",
+      item_category: 'Apparel',
+      item_category2: 'Coats',
+      item_variant: 'Navy blue',
+      quantity: 2, // Make sure quantity is passes as integer, not as float.
+      coupon: '',
+      discount: 0, // Discount applied to the current product 
+      item_list_name: 'Featured items',
+      item_list_id: 'FI1',
+      index: 1,  // Optional - Position of item in the list 
+      location_id: 'L_12345', // Optional - The location associated with the item.      
+    }],
+  }
+});
+

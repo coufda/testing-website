@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!-- Google Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FONT Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Connect CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- FONT Awesome CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/c46989a45d.js" crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Supercars | Touch your dream</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" sizes="32x32"/>
+    <script src="javascript/store.js"></script>
+    <script src="javascript/toggle.js"></script> 
+    
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+    </script>
+      
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NW2RXS8Y0B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NW2RXS8Y0B');
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PRNC6ZQ');</script>
+      <!-- End Google Tag Manager -->
+  </head>
+  
+  
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRNC6ZQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+  
+    <div class="scroll-button">
+      <i class="fa-solid fa-circle-up"></i>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+      <div class="container-fluid"> <!-- dulezite-->
+        <a class="navbar-brand" href="index.html"><img src="img/logo_dc.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto"> <!-- ml-auto-pushne navigaci doprava -->
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contactus">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-cart">
+            <a href="kosik.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <div id="cartAmount" class="cartAmount">0</div>
+          </div>
+      </div>
+    </nav>
+    
+     <!-- Shopping Cart -->
+
+    <!-- Image Slider -->
+    <div id="slides" class="carousel slide" data-bs-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-bs-target="#slides" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#slides" data-bs-slide-to="1"></li>
+        <li data-bs-target="#slides" data-bs-slide-to="2"></li>
+        <li data-bs-target="#slides" data-bs-slide-to="3"></li>
+      </ul>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/backgound(1).jpg" alt="Ferrari">
+          <div class="carousel-caption">
+            <h1 class="display-2">Ferrari</h1>
+            <h3>Never disappoints you</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">VIEW</button>
+            <button type="button" class="btn btn-primary btn-lg">Get your Car</button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/backgound(2).jpg" alt="Porsche">
+          <div class="carousel-caption">
+            <h1 class="display-2">Porsche</h1>
+            <h3>Never disappoints you</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">VIEW</button>
+            <button type="button" class="btn btn-primary btn-lg">Get your Car</button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/backgound(3).jpg" alt="McLaren">
+          <div class="carousel-caption">
+            <h1 class="display-2">McLaren</h1>
+            <h3>Never disappoints you</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">VIEW</button>
+            <button type="button" class="btn btn-primary btn-lg">Get your Car</button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/backgound(4).jpg" alt="BMW">
+          <div class="carousel-caption">
+            <h1 class="display-2">BMW</h1>
+            <h3>Never disappoints you</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">VIEW</button>
+            <button type="button" class="btn btn-primary btn-lg">Get your Car</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Welcome Section -->
+    <div id="services" class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Created with ease.</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+          <p class="lead">Welcome to my first Bootstrap 5 demo webiste, which will be furthed used to testing out GA4 functions, by our team!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cookie panel -->
+    <div class="cookie">
+      <span>This site uses cookies to enhance user experience. <a href="https://ec.europa.eu/info/cookies_en" class="ml-1 text-decoration-none" target="_blank">Privacy policy</a> </span>
+      <div class=" ml-2 d-flex align-items-center justify-content-center g-2">
+        <button class="allow-button mr-1">Allow cookies</button>
+        <button onclick="myFunction()" class="allow-button">Cancel</button>
+      </div>
+    </div>
+
+    <!-- Three column section -->
+    <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-code"></i>
+        <h3>FAST</h3>
+        <p>Create your special moments with the latest technology a most fast hypercars in the world</p>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fa-brands fa-apple-pay"></i>
+        <h3>NEWEST</h3>
+        <p>Create your special moments with the newest</p>
+      </div>
+
+      <div class="col-sm-12 col-md-4">
+        <i class="fa-brands fa-audible"></i>
+        <h3>DIFFERENT</h3>
+        <p>Create your special moments and be different</p>
+      </div>
+    </div>
+      <hr class="my-4">
+    </div>
+
+    <!-- About US Three section-->
+    <div id="aboutus" class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">About US</h1>
+          <div class="container-fluid padding">
+            <div class="row padding">
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="img/team1.jpg" alt="team1">
+                    <div class="card-body">
+                      <h4 class="card-title">Suzan Jo</h4>
+                      <p class="card-text">Suzan is our designer and marketing chief, with almost 10 years experience.</p>
+                      <a href="#" class="btn btn-outline-secondary">See profile</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="img/team2.jpg"  alt="team2">
+                    <div class="card-body">
+                      <h4 class="card-title">John Doe</h4>
+                      <p class="card-text">John is our precisious photographer, with almost 10 years experience.</p>
+                      <a href="#" class="btn btn-outline-secondary">See profile</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="img/team3.jpg"  alt="team3">
+                    <div class="card-body">
+                      <h4 class="card-title">Clark Newton</h4>
+                      <p class="card-text">Clark is our programmer and CEO, with almost 5 years experience.</p>
+                      <a href="#" class="btn btn-outline-secondary">See profile</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <hr>
+
+
+     
+    <!-- Products - Three section -->
+    <h1 class="display-4">Products</h1>
+    <div class="shop" id="shop">
+
+
+    </div>
+     
+      <!--Section description-->
+      <div id="contactus" class="container-fluid padding">
+        <div class="row welcome text-center">
+           <div class="col-12">
+             <h2>Stay tune</h2>
+           </div>
+           </div>
+  
+     <section class="mb-4">
+      <div class="caption text-center w-responsive mx-auto mb-5">
+        <h4>#Drop us a line <span>if you want to work together</span> on something exciting</h4>
+      </div>
+    
+      
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+  
+                  <!--Grid row-->
+                  <div class="row">
+  
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                            <input type="text" name="name" class="form-control" placeholder="Name" id="name">
+                            <label for="name" class="sr-only">Name</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+  
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                            <input type="text" name="email" class="form-control" placeholder="E-mail" id="email">
+                            <label for="email" class="sr-only">Your email</label>  
+                          </div>
+                      </div>
+                      <!--Grid column-->
+  
+                  </div>
+                  <!--Grid row-->
+  
+                  <!--Grid row-->
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="md-form mb-0">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" id="subject">
+                            <label for="subject" class="sr-only">Subject</label>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Grid row-->
+  
+                  <!--Grid row-->
+                  <div class="row">
+  
+                      <!--Grid column-->
+                      <div class="col-md-12">
+                          <div class="md-form">
+                            <label for="message" class="sr-only">Your message</label>
+                            <textarea placeholder="Your message" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Grid row-->
+              </form>
+  
+              <div class="text-center text-md-left">
+                  <a class="btn btn-third" onclick="document.getElementById('contact-form').submit();">Send</a>
+              </div>
+              <div class="status"></div>
+          </div>
+          
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                  <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                      <p>San Francisco, CA 94126, USA</p>
+                  </li>
+  
+                  <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                      <p>+420 734 567 989</p>
+                  </li>
+  
+                  <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                      <p>contact@databy.io</p>
+                  </li>
+              </ul>
+          </div>
+          <!--Grid column-->
+      </div>
+  </section>
+  <!-- Staytune -->
+       <div class="col-12 social padding">
+         <a href="#"><i class="fab fa-facebook"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>   
+       </div>
+    </div>
+    </div>
+  </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-12">
+            <span>Created By <a href="#">databy.io</a> | <span><i class="fa-solid fa-copyright"></i></span> 2022 All rights reserved</span>
+            <span><a href="index.html">Designed By databy</a></span>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    <script src="javascript/Data.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/cookies.js"></script> 
+  </body>
+  
+</html>
